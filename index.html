@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AktuMboa — Participation Citoyenne au Cameroun</title>
+  <meta name="description" content="Application mobile de participation citoyenne pour renforcer la démocratie et l'engagement des jeunes au Cameroun. Développée par AfricTivistes CitizenLab."/>
+  <meta property="og:title" content="AktuMboa — Participation Citoyenne"/>
+  <meta property="og:description" content="Informez-vous. Exprimez-vous. Participez."/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <span class="logo-icon">◈</span>
+      <span>AktuMboa</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#a-propos">À propos</a></li>
+      <li><a href="#telechargement" class="nav-cta">Télécharger</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#fonctionnalites">Fonctionnalités</a>
+    <a href="#impact">Impact</a>
+    <a href="#a-propos">À propos</a>
+    <a href="#telechargement">Télécharger</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-noise"></div>
+  <div class="hero-grid"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">
+      <span class="dot-live"></span>
+      AfricTivistes CitizenLab Cameroun
+    </div>
+    <h1 class="hero-title">
+      <span class="title-line">La voix</span>
+      <span class="title-line title-accent">citoyenne</span>
+      <span class="title-line">du Cameroun</span>
+    </h1>
+    <p class="hero-desc">
+      AktuMboa connecte les citoyens camerounais à l'information civique, 
+      amplifie les initiatives locales et renforce la participation démocratique 
+      grâce au numérique.
+    </p>
+    <div class="hero-actions">
+      <a href="#telechargement" class="btn-primary">
+        Télécharger l'app
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 16l-4-4h3V4h2v8h3l-4 4z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 18H4v2h16v-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+      <a href="#fonctionnalites" class="btn-outline">Découvrir →</a>
+    </div>
+    <div class="hero-numbers">
+      <div class="number-item">
+        <span class="number-val">6</span>
+        <span class="number-label">Fonctionnalités</span>
+      </div>
+      <div class="number-sep"></div>
+      <div class="number-item">
+        <span class="number-val">2</span>
+        <span class="number-label">Langues</span>
+      </div>
+      <div class="number-sep"></div>
+      <div class="number-item">
+        <span class="number-val">🇨🇲</span>
+        <span class="number-label">Cameroun</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-phone">
+    <div class="phone-frame">
+      <div class="phone-notch"></div>
+      <div class="phone-screen">
+        <div class="app-topbar">
+          <span class="app-logo-sm">◈ AktuMboa</span>
+          <span class="app-bell">🔔</span>
+        </div>
+        <div class="app-banner">
+          <div class="banner-tag">À la une</div>
+          <div class="banner-title">Forum citoyen<br/>à Yaoundé</div>
+        </div>
+        <div class="app-section-title">Actualités citoyennes</div>
+        <div class="app-cards">
+          <div class="app-card">
+            <div class="app-card-dot green"></div>
+            <div class="app-card-text">
+              <div class="card-t">Initiative eau potable</div>
+              <div class="card-s">Douala · il y a 2h</div>
+            </div>
+          </div>
+          <div class="app-card">
+            <div class="app-card-dot yellow"></div>
+            <div class="app-card-text">
+              <div class="card-t">Sondage budget local</div>
+              <div class="card-s">Bafoussam · il y a 5h</div>
+            </div>
+          </div>
+          <div class="app-card">
+            <div class="app-card-dot orange"></div>
+            <div class="app-card-text">
+              <div class="card-t">Signalement voirie</div>
+              <div class="card-s">Ngaoundéré · il y a 1j</div>
+            </div>
+          </div>
+        </div>
+        <div class="app-nav-bar">
+          <div class="app-nav-item active">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2"/></svg>
+            <span>Accueil</span>
+          </div>
+          <div class="app-nav-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>Signaler</span>
+          </div>
+          <div class="app-nav-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>Agenda</span>
+          </div>
+          <div class="app-nav-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2M12 11a4 4 0 100-8 4 4 0 000 8z" stroke="currentColor" stroke-width="2"/></svg>
+            <span>Profil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="phone-glow"></div>
+    <div class="float-chip chip-1">
+      <span>✅</span> Initiative validée
+    </div>
+    <div class="float-chip chip-2">
+      <span>🗳️</span> 1 247 votes
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="fonctionnalites">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">Fonctionnalités</span>
+      <h2>Tout ce dont un citoyen<br/>engagé a besoin</h2>
+      <p>Six espaces complémentaires pour s'informer, s'exprimer et agir.</p>
+    </div>
+
+    <div class="features-bento">
+
+      <div class="bento-card bento-large bento-green">
+        <div class="bento-icon">📰</div>
+        <h3>Actualités citoyennes</h3>
+        <p>Informations civiques, sociales et démocratiques nationales et locales. Analyses, contenus éducatifs et notifications sur les événements importants.</p>
+        <div class="bento-tag">Information</div>
+      </div>
+
+      <div class="bento-card bento-dark">
+        <div class="bento-icon">🤝</div>
+        <h3>Initiatives citoyennes</h3>
+        <p>Publiez et découvrez des projets communautaires locaux — social, environnemental, culturel.</p>
+      </div>
+
+      <div class="bento-card bento-light">
+        <div class="bento-icon">📍</div>
+        <h3>Signalement citoyen</h3>
+        <p>Signalez un problème ou une action locale avec texte, photo et géolocalisation.</p>
+      </div>
+
+      <div class="bento-card bento-green-soft">
+        <div class="bento-icon">📚</div>
+        <h3>Ressources éducatives</h3>
+        <p>Bibliothèque numérique : guides de citoyenneté, vidéos, fiches pratiques sur la démocratie et la lutte contre la désinformation.</p>
+        <div class="bento-tag">Formation</div>
+      </div>
+
+      <div class="bento-card bento-dark">
+        <div class="bento-icon">📅</div>
+        <h3>Agenda civique</h3>
+        <p>Conférences, débats publics, formations et événements de la société civile.</p>
+      </div>
+
+      <div class="bento-card bento-accent">
+        <div class="bento-icon">🗳️</div>
+        <h3>Sondages & consultations</h3>
+        <p>Participez à des consultations publiques et exprimez votre avis sur les questions d'intérêt commun.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works">
+  <div class="container">
+    <div class="section-head section-head--light">
+      <span class="section-tag section-tag--dark">Comment ça marche</span>
+      <h2>Simple. Accessible. Puissant.</h2>
+    </div>
+    <div class="steps-row">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <h3>Téléchargez</h3>
+        <p>Disponible sur Android et iOS. Interface optimisée pour les connexions limitées.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <h3>Créez votre profil</h3>
+        <p>Inscription rapide. Choisissez votre région et vos centres d'intérêt civiques.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <h3>Participez</h3>
+        <p>Informez-vous, signalez, votez, publiez — et rejoignez la communauté citoyenne.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section class="impact" id="impact">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">Impact attendu</span>
+      <h2>Pourquoi AktuMboa<br/>change la donne</h2>
+    </div>
+    <div class="impact-grid">
+      <div class="impact-card">
+        <div class="impact-icon">🏛️</div>
+        <h3>Transparence institutionnelle</h3>
+        <p>Un canal direct entre citoyens et institutions pour un dialogue ouvert sur la gouvernance locale.</p>
+      </div>
+      <div class="impact-card">
+        <div class="impact-icon">👨‍👩‍👧‍👦</div>
+        <h3>Engagement des jeunes</h3>
+        <p>Une plateforme pensée pour les étudiants, jeunes leaders et activistes qui veulent agir.</p>
+      </div>
+      <div class="impact-card">
+        <div class="impact-icon">🌍</div>
+        <h3>Valorisation locale</h3>
+        <p>Les initiatives communautaires de chaque région du Cameroun sont visibles et partagées.</p>
+      </div>
+      <div class="impact-card">
+        <div class="impact-icon">🛡️</div>
+        <h3>Lutte contre la désinformation</h3>
+        <p>Des ressources éducatives et une information vérifiée pour renforcer l'esprit critique citoyen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="a-propos">
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-text">
+        <span class="section-tag">À propos</span>
+        <h2>Née au cœur<br/>d'AfricTivistes</h2>
+        <p>
+          AktuMboa est développée dans le cadre de l'initiative <strong>CitizenLab Cameroun</strong>, 
+          portée par <strong>AfricTivistes</strong> — une organisation panafricaine qui mobilise les 
+          technologies numériques pour renforcer la citoyenneté, la transparence et la démocratie en Afrique.
+        </p>
+        <p>
+          L'application est bilingue (français / anglais), conçue pour les smartphones Android et iOS, 
+          et optimisée pour fonctionner dans des environnements à faible connectivité — reflétant 
+          les réalités numériques de terrain au Cameroun.
+        </p>
+        <div class="about-badges">
+          <span class="about-badge">🇨🇲 Cameroun</span>
+          <span class="about-badge">🌍 Panafricain</span>
+          <span class="about-badge">📱 Android & iOS</span>
+          <span class="about-badge">🗣️ FR / EN</span>
+        </div>
+        <a href="https://africTivistes.org" target="_blank" rel="noopener" class="about-link">
+          Visiter AfricTivistes →
+        </a>
+      </div>
+      <div class="about-visual">
+        <div class="about-card-stack">
+          <div class="stack-card stack-back"></div>
+          <div class="stack-card stack-mid"></div>
+          <div class="stack-card stack-front">
+            <div class="stack-logo">◈</div>
+            <div class="stack-name">AktuMboa</div>
+            <div class="stack-sub">CitizenLab Cameroun</div>
+            <div class="stack-divider"></div>
+            <div class="stack-tags">
+              <span>Civic Tech</span>
+              <span>Démocratie</span>
+              <span>Numérique</span>
+            </div>
+            <div class="stack-org">AfricTivistes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOWNLOAD -->
+<section class="download" id="telechargement">
+  <div class="container">
+    <div class="download-inner">
+      <div class="download-text">
+        <span class="section-tag section-tag--dark">Téléchargement</span>
+        <h2>Rejoignez la communauté<br/>AktuMboa</h2>
+        <p>Disponible prochainement sur Android et iOS. Inscrivez-vous pour être notifié au lancement.</p>
+        <div class="store-buttons">
+          <a href="#" class="store-btn store-android">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.523 15.341L5.477 8.659A1 1 0 004 9.5v5a1 1 0 001.477.841l12.046-6.682a1 1 0 000-1.682z"/><path d="M4 6.5v11a1 1 0 001.477.841l1.523-.845V6.504L5.477 5.66A1 1 0 004 6.5z"/><path d="M8.5 5.7l8.5 4.715V14l1.523.844A1 1 0 0020 14v-4a1 1 0 00-.477-.859L8 3.346 8.5 5.7z"/></svg>
+            <div>
+              <small>Disponible sur</small>
+              <strong>Google Play</strong>
+            </div>
+          </a>
+          <a href="#" class="store-btn store-ios">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701z"/></svg>
+            <div>
+              <small>Disponible sur</small>
+              <strong>App Store</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="notify-box">
+        <h3>Soyez notifié au lancement</h3>
+        <p>Laissez votre email pour recevoir les dernières actualités et accéder en avant-première.</p>
+        <form class="notify-form" onsubmit="handleSubmit(event)">
+          <input type="email" placeholder="votre@email.com" required class="notify-input"/>
+          <button type="submit" class="notify-btn">Je m'inscris</button>
+        </form>
+        <div class="notify-success" id="notify-success">
+          ✅ Merci ! Vous serez notifié au lancement.
+        </div>
+        <div class="notify-note">Aucun spam. Désinscription possible à tout moment.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <span class="logo-icon">◈</span>
+          <span>AktuMboa</span>
+        </div>
+        <p>Participation citoyenne numérique pour le Cameroun et l'Afrique.</p>
+        <div class="footer-org">Une initiative <strong>AfricTivistes CitizenLab</strong></div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Application</h4>
+          <ul>
+            <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+            <li><a href="#telechargement">Télécharger</a></li>
+            <li><a href="#impact">Impact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Organisation</h4>
+          <ul>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="https://africTivistes.org" target="_blank" rel="noopener">AfricTivistes</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Ressources</h4>
+          <ul>
+            <li><a href="https://africacheck.org" target="_blank" rel="noopener">AfricaCheck</a></li>
+            <li><a href="https://github.com/P-Adjinsala" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 AktuMboa · AfricTivistes CitizenLab Cameroun</span>
+      <span>Développé avec ❤️ à Yaoundé 🇨🇲</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
